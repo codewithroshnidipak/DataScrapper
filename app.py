@@ -733,7 +733,7 @@ if __name__ == "__main__":
     import uvicorn
     print(f"\n" + "="*70)
     print(f"🚀 LeadPulse Pro Web App running on: http://localhost:{PORT}")
-    print(f"📡 Network URL: http://0.0.0.0:{PORT}")
+    print(f"📡 Network URL (LAN): http://192.168.10.215:{PORT}")
     print(f"="*70 + "\n")
     uvicorn.run("app:app", host=HOST, port=PORT, reload=False)
 

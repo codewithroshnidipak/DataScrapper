@@ -35,7 +35,7 @@ def _get_float(key: str, default: float = 1.0) -> float:
 
 # Browser & Scraping Settings
 HOST: str = os.getenv("HOST", "0.0.0.0")
-PORT: int = _get_int("PORT", default=8001)
+PORT: int = _get_int("PORT", default=8000)
 
 HEADLESS_MODE: bool = _get_bool("HEADLESS_MODE", default=False)
 REQUEST_DELAY_MIN: float = _get_float("REQUEST_DELAY_MIN", default=0.5)
